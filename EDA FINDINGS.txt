@@ -1,0 +1,10 @@
+EDA FINDINGS – STUDENT PERFORMANCE DATASET
+
+1. Dataset contains 649 rows and 33 columns.
+2. No missing values were found in any column.
+3. Numerical features include age, studytime, failures, absences, and grades (G1, G2, G3).
+4. Grade variables (G1, G2, G3) show strong positive correlation with each other.
+5. Absences show a weak negative correlation with final grade (G3).
+6. Outliers were detected using the IQR method, mainly in absences and grade columns.
+7. Outliers were capped instead of removed to avoid data loss.
+8. Cleaned dataset was exported for further analysis.
